@@ -6,7 +6,7 @@ The link to the deployed application is here:
 
 [Repository for this Project](https://github.com/trfina/NoSQL-API)
 
-![Finished Mock Up](./assets/images/prompts.png)
+![Finished Mock Up]
 
 ## Table of Contents
 * [Installation](#installation)
