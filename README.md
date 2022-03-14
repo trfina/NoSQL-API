@@ -1,7 +1,7 @@
 ##  NoSQL Challenge: Social Network API
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project builds and API for a social network web applicaion using Express.js for routing, a MongoDB database, and the Mongoose ODM.
+This project builds an API for a social network web applicaion using Express.js for routing, a MongoDB database, and the Mongoose ODM.
 The link to the deployed application is here:
 
 [Repository for this Project](https://github.com/trfina/NoSQL-API)
@@ -31,7 +31,8 @@ MongoDB must be installed as well.
 Go the extra mile and write tests for your application. Then provide examples on how to run the
 
 ## Credits
-Stackoverflow user Harsha,  MV example for validating an email address in Mongooose matching validation.
+Stackoverflow user MV Harshaexample for validating an email address in Mongooose matching validation.
+
 
 ## License
 - This application is covered under the following license: MIT License
