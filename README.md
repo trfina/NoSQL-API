@@ -1,6 +1,5 @@
 ##  NoSQL Challenge: Social Network API
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![license](https://user-images.githubusercontent.com/12851682/148693806-087c3c6d-8245-4b8a-9c0b-56b63f3299fd.png)
 
 This project builds and API for a social network web applicaion using Express.js for routing, a MongoDB database, and the Mongoose ODM.
 The link to the deployed application is here:
@@ -29,34 +28,14 @@ MongoDB must be installed as well.
 [Contributor Covenant](https://www.contributor-covenant.org/) 
     
 ## Tests
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
-    
-## Usage 
-
+Go the extra mile and write tests for your application. Then provide examples on how to run the
 
 ## Credits
-
-- Starter Code for this README.md project:
-(https://github.com/coding-boot-camp/potential-enigma)
-
-- Tutorials:
-Basic Writing and Formating Syntax
-https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text
-
-- GitHub users Imbingz and lukas-h for their markdown license badge projects 
+Stackoverflow user Harsha,  MV example for validating an email address in Mongooose matching validation.
 
 ## License
 - This application is covered under the following license: MIT License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## Badges
-
-- Badges aren't _necessary_, but they let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). 
-
-
-## Features
-
-- If your project has a lot of features, consider adding a heading called "Features" and listing them there
 
 ## Questions
 
