@@ -1,5 +1,16 @@
 const $pizzaList = document.querySelector('#pizza-list');
 
+const getUserList = () => {
+  fetch('/api/users')
+    .then(response => response.json())
+    .then(userListArr => {
+      userListArr.forEach(printUser);
+    })
+    .catch(err => {
+      console.log(err);
+    });
+};
+
 const printPizza = ({ _id, pizzaName, toppings, size, commentCount, createdBy, createdAt }) => {
   const pizzaCard = `
     <div class="col-12 col-lg-6 flex-row">
@@ -26,3 +37,5 @@ const printPizza = ({ _id, pizzaName, toppings, size, commentCount, createdBy, c
 
   $pizzaList.innerHTML += pizzaCard;
 };
+
+getUserList();
