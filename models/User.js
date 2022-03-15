@@ -45,12 +45,12 @@ const UserSchema = new Schema({
 );
 
 // get total count of comments and replies on retrieval
-UserSchema.virtual('friendCount').get(function() {
-    return this.friends.length;
-});
+// UserSchema.virtual('friendCount').get(function() {
+//     return this.friends.length;
+// });
 
 // create the User model using the UserSchema
-const User = model('User', UserSchema);
+const User = mongoose.model('User', UserSchema);
 
 // export the User model
 module.exports = User;
