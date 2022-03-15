@@ -3,7 +3,7 @@ const { Schema, model } = require('mongoose');
 const UserSchema = new Schema({
     userName: {
         type: String,
-        unique: true,
+        unique: [true, 'This user exists already'],
         required: true,
         trim: true
     },
@@ -44,7 +44,12 @@ const UserSchema = new Schema({
     }
 );
 
-// get total count of comments and replies on retrieval
+// get total count of thoughts and replies on retrieval
+UserSchema.virtual('thoughtCount').get(function() {
+    return this.thoughts.length;
+});
+
+// get total count of friends and replies on retrieval
 UserSchema.virtual('friendCount').get(function() {
     return this.friends.length;
 });

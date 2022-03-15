@@ -1,11 +1,17 @@
 const { User } = require('../models');
 
 const userController = {
-  // the functions will go in here as methods
+  // the functions will go in here as methods:
 
-  // get all users
+  // get all users ==> GET /api/user
   getAllUser(req, res) {
     User.find({})
+      .populate({
+        path: 'thoughts',
+        select: '-_v'
+      })
+      .select('-_v')
+      .sort({_id: -1})
       .then(dbUserData => res.json(dbUserData))
       .catch(err => {
         console.log(err);
@@ -13,11 +19,16 @@ const userController = {
       });
   },
   
-  // get one user by id
+  // get one user by id ==> GET /api/user/:id
   getUserById({ params }, res) {
     User.findOne({ _id: params.id })
+      .populate({
+        path: 'thoughts',
+        select: '-_v'
+      })
+      .select('-_v')
       .then(dbUserData => {
-        // If no pizza is found, send 404
+        // If no user is found, send 404
         if (!dbUserData) {
           res.status(404).json({ message: 'No user found with this id!' });
           return;
@@ -30,14 +41,14 @@ const userController = {
       });
   },
 
-  // create User
+  // create User ==> POST /api/user
   createUser({ body }, res) {
     User.create(body)
       .then(dbUserData => res.json(dbUserData))
       .catch(err => res.status(400).json(err));
   }, 
 
-  // update user by id
+  // update user by id ==> PUT /api/users/:id
   updateUser({ params, body }, res) {
     User.findOneAndUpdate({ _id: params.id }, body, { new: true })
       .then(dbUserData => {
@@ -50,8 +61,7 @@ const userController = {
       .catch(err => res.status(400).json(err));
     },
 
-   
-  // delete user
+  // delete user ==> DELETE /api/users/:id
   deleteUser({ params }, res) {
     User.findOneAndDelete({ _id: params.id })
       .then(dbUserData => {

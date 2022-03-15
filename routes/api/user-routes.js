@@ -1,4 +1,5 @@
 const router = require('express').Router();
+
 const {
     getAllUser,
     getUserById,
@@ -7,7 +8,7 @@ const {
     deleteUser
 } = require('../../controllers/user-controller');
 
-// Set up GET all and POST at /api/pizzas
+// Set up GET all and POST at /api/users
 router
     .route('/')
     .get(getAllUser)
