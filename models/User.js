@@ -3,7 +3,7 @@ const { Schema, model } = require('mongoose');
 const UserSchema = new Schema({
     userName: {
         type: String,
-        unique: true,
+        unique: [true, 'This user exists already'],
         required: true,
         trim: true
     },
@@ -50,7 +50,7 @@ const UserSchema = new Schema({
 // });
 
 // create the User model using the UserSchema
-const User = mongoose.model('User', UserSchema);
+const User = model('User', UserSchema);
 
 // export the User model
 module.exports = User;
