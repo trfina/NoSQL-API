@@ -7,6 +7,7 @@ The link to the deployed application is here:
 [Repository for this Project](https://github.com/trfina/NoSQL-API)
 
 [Video: Starting the Social Network App](https://drive.google.com/file/d/1F0ohG2BNjVbZDlIpJWooPB0IcbpK-z5X/preview)
+[Video: Get All Users and Get User by Id](https://drive.google.com/file/d/1-TCwPvqVX-PVYB3cwg21SFa3Xy3TQ1yF/preview)
 
 ## Table of Contents
 * [Installation](#installation)
