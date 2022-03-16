@@ -6,7 +6,7 @@ The link to the deployed application is here:
 
 [Repository for this Project](https://github.com/trfina/NoSQL-API)
 
-![Starting the Application: (]chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/0934ea51-c787-4b87-y53a-1eef17dd9943)
+[Video: Starting the Social Network App](https://drive.google.com/file/d/1F0ohG2BNjVbZDlIpJWooPB0IcbpK-z5X/preview)
 
 ## Table of Contents
 * [Installation](#installation)
