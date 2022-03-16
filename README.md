@@ -10,6 +10,10 @@ The link to the deployed application is here:
 
 [Video: Get All Users and Get User by Id](https://drive.google.com/file/d/1-TCwPvqVX-PVYB3cwg21SFa3Xy3TQ1yF/preview)
 
+[Video: Create, Change and Delete User](https://drive.google.com/file/d/1w68VmexqGkrv_qa2JUccXw-PvKiaLOrZ/preview)
+
+[Video: Create and Delete Thought](https://drive.google.com/file/d/1KS58Pq1rxhRc-3ojVhlCB3sQN65Fb0uP/preview)
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
