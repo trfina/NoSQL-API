@@ -6,7 +6,7 @@ The link to the deployed application is here:
 
 [Repository for this Project](https://github.com/trfina/NoSQL-API)
 
-![Finished Mock Up]
+![Starting the Application: (]chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/0934ea51-c787-4b87-y53a-1eef17dd9943)
 
 ## Table of Contents
 * [Installation](#installation)
